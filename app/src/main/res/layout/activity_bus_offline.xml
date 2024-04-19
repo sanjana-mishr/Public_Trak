@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:textAlignment="center"
+    tools:context=".BusOffline">
+
+    <Button
+        android:id="@+id/offline_btn"
+        android:layout_width="123dp"
+        android:layout_height="55dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginEnd="25dp"
+        android:text="Offline"
+        android:textAlignment="center"
+        app:cornerRadius="10dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tv_warning"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="5dp"
+        android:fontFamily="sans-serif-medium"
+        android:text="Warning You are not viewing LIVE Data there might be some inconsitencies in the timings"
+        android:textAlignment="center"
+        android:textColor="#FF0000"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/offline_btn" />
+
+    <ImageView
+        android:id="@+id/img_warning"
+        android:layout_width="44dp"
+        android:layout_height="38dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginBottom="15dp"
+        app:layout_constraintBottom_toTopOf="@+id/tv_warning"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/warning" />
+
+    <Spinner
+        android:id="@+id/sp_agency"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="-8dp"
+        app:layout_constraintStart_toStartOf="@+id/tv_agency"
+        app:layout_constraintTop_toBottomOf="@+id/tv_agency" />
+
+    <TextView
+        android:id="@+id/tv_agency"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="40dp"
+        android:text="Agencies"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_warning" />
+
+    <TextView
+        android:id="@+id/tv_stops"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="25dp"
+        android:text="Current Stop"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/sp_agency" />
+
+    <AutoCompleteTextView
+        android:id="@+id/autotv_stops"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:dropDownHeight="wrap_content"
+        android:hint="Nearest Bus Stop"
+        app:layout_constraintStart_toStartOf="@+id/tv_stops"
+        app:layout_constraintTop_toBottomOf="@+id/tv_stops" />
+
+    <TextView
+        android:id="@+id/tv_destination"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="25dp"
+        android:text="Destination"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/autotv_stops" />
+
+    <AutoCompleteTextView
+        android:id="@+id/autotv_destination"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Destination Stop"
+        app:layout_constraintStart_toStartOf="@+id/tv_destination"
+        app:layout_constraintTop_toBottomOf="@+id/tv_destination" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/current_station_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Current Bus Station"
+        android:textSize="16sp"
+        android:layout_marginTop="50dp"/>
+
+    <EditText
+        android:id="@+id/current_station_edit_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/current_station_label"
+        android:layout_marginTop="8dp"
+        android:inputType="text"/>
+
+    <TextView
+        android:id="@+id/destination_station_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Destination Bus Station"
+        android:textSize="16sp"
+        android:layout_below="@id/current_station_edit_text"
+        android:layout_marginTop="16dp"/>
+
+    <EditText
+        android:id="@+id/destination_station_edit_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/destination_station_label"
+        android:layout_marginTop="8dp"
+        android:inputType="text"/>
+
+    <Button
+        android:id="@+id/ok_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/destination_station_edit_text"
+        android:layout_marginTop="24dp"
+        android:layout_centerHorizontal="true"
+        android:text="OK"/>
+
+</RelativeLayout>

@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "725689333938",
+    "project_id": "publictrakusers",
+    "storage_bucket": "publictrakusers.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:725689333938:android:a55318a1b1741d18a031ab",
+        "android_client_info": {
+          "package_name": "com.example.public_trak"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCXT3yCZ9MPT7Ul_8i5Vf8xOrZBuHZj71o"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AboutFragment">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Welcome to our public bus tracking system! At [Your Company Name], we're committed to simplifying the commuting experience by providing real-time tracking information for buses in our city. Our system allows passengers to conveniently track the location and schedules of buses, ensuring they can plan their journeys effectively and reduce wait times at bus stops. With an intuitive interface and customizable settings, our system aims to empower commuters with the tools they need to travel with ease and confidence. We're dedicated to continuously improving and expanding our services to better serve the needs of our community. Thank you for choosing [Your Company Name] for your public transportation needs!"
+        android:textSize="30sp"
+        android:layout_centerInParent="true"
+        android:textColor="@color/lavender"/>
+</RelativeLayout>
