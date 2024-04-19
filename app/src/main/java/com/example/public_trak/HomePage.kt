@@ -32,11 +32,7 @@ class HomePageActivity : AppCompatActivity(), NavigationView.OnNavigationItemSel
         drawerLayout.addDrawerListener(toggle)
         toggle.syncState()
 
-        if (savedInstanceState == null) {
-            supportFragmentManager.beginTransaction()
-                .replace(R.id.fragment_container, HomeFragment()).commit()
-            navigationView.setCheckedItem(R.id.nav_home)
-        }
+
     }
 
     override fun onNavigationItemSelected(item: MenuItem): Boolean {
@@ -52,6 +48,7 @@ class HomePageActivity : AppCompatActivity(), NavigationView.OnNavigationItemSel
     }
 
     override fun onBackPressed() {
+        super.onBackPressed()
         if (drawerLayout.isDrawerOpen(GravityCompat.START)) {
             drawerLayout.closeDrawer(GravityCompat.START)
         } else {

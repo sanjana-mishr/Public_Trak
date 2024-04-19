@@ -37,20 +37,13 @@
             android:textStyle="bold" />
 
         <!-- Your main content goes here (buttons, etc.) -->
-        <Button
-            android:id="@+id/see_bus_timings_button"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_below="@id/app_name"
-            android:layout_marginTop="80dp"
-            android:onClick="onSeeBusTimingsButtonClick"
-            android:text="See Bus Timings" />
+
 
         <Button
             android:id="@+id/select_route_button"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_below="@id/see_bus_timings_button"
+            android:layout_below="@id/app_logo"
             android:layout_marginTop="50dp"
             android:text="Select Route"
             android:onClick="onSelectRouteButtonClick" />

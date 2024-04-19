@@ -55,4 +55,6 @@
     <string name="login">Login</string>
     <string name="forgot_password">Forgot Password?</string>
     <string name="not_yet_registered_signup">Not yet registered? Signup</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>
