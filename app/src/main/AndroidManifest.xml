@@ -36,6 +36,13 @@
             android:name=".BusOnline"
             android:exported="false" />
         <activity
+            android:name=".RoutesActivity"
+            android:exported="false"/>
+        <activity
+            android:name=".TimingsActivity"
+            android:exported="false"/>
+
+        <activity
             android:name=".BusOffline"
             android:exported="false" />
         <activity

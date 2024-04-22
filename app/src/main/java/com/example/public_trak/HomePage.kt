@@ -4,6 +4,7 @@ import android.content.Intent
 import android.content.SharedPreferences
 import android.os.Bundle
 import android.view.MenuItem
+import android.view.View
 import android.widget.Toast
 import androidx.appcompat.app.ActionBarDrawerToggle
 import androidx.appcompat.app.AppCompatActivity
@@ -80,4 +81,15 @@ class HomePageActivity : AppCompatActivity(), NavigationView.OnNavigationItemSel
             super.onBackPressed()
         }
     }
+
+    fun onSelectRouteButtonClick(view: View) {
+        val intent = Intent(this, RoutesActivity::class.java)
+        startActivity(intent)
+    }
+
+    fun onSeeBusTimingsButtonClick(view: View) {
+        val intent = Intent(this, TimingsActivity::class.java)
+        startActivity(intent)
+    }
 }
+
