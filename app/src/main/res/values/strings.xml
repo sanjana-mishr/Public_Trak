@@ -8,6 +8,7 @@
     <string name="tvPassword">PASSWORD</string>
     <string name="title_activity_maps1">MapsActivity1</string>
     <string name="title_activity_bus_online">BusOnline</string>
+    <string name="about_us_description">Welcome to BusBuddy We're dedicated to simplifying your travel experience by providing accurate bus timings and route information. Whether you're a daily commuter or an occasional traveler, our app helps you plan your journey with ease. With real-time tracking and route navigation features, you can stay informed and navigate the city efficiently. Thank you for choosing BusBuddy for your travel needs!".</string>
     <!-- Strings used for fragments for navigation -->
     <string name="first_fragment_label">First Fragment</string>
     <string name="second_fragment_label">Second Fragment</string>

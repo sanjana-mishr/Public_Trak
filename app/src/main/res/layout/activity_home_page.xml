@@ -54,8 +54,7 @@
             android:layout_height="wrap_content"
             android:layout_below="@id/app_name"
             android:layout_marginTop="50dp"
-            android:text="Select Route"
-            android:onClick="onSelectRouteButtonClick" />
+            android:text="Select Route" />
 
         <Button
             android:id="@+id/see_timings"
@@ -63,8 +62,7 @@
             android:layout_height="wrap_content"
             android:layout_below="@+id/select_route_button"
             android:layout_marginTop="60dp"
-            android:text="See bus timings"
-            android:onClick="onSeeBusTimingsButtonClick" />
+            android:text="See bus timings" />
 
         <FrameLayout
             android:id="@+id/fragment_container"

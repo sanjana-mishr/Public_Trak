@@ -35,12 +35,10 @@
         <activity
             android:name=".BusOnline"
             android:exported="false" />
-        <activity
-            android:name=".RoutesActivity"
-            android:exported="false"/>
-        <activity
-            android:name=".TimingsActivity"
-            android:exported="false"/>
+        <activity android:name=".RoutesActivity">
+        </activity>
+        <activity android:name=".TimingsActivity">
+        </activity>
 
         <activity
             android:name=".BusOffline"
@@ -48,6 +46,10 @@
         <activity
             android:name=".MainActivity"
             android:exported="false"></activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
     </application>
 
 </manifest>
